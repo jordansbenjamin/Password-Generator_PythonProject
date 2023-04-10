@@ -11,15 +11,11 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-total_num_of_password = nr_letters + nr_numbers + nr_symbols
-
 password = ""
 
 length_letters = len(letters)
 length_numbers = len(numbers)
 length_symbols = len(symbols)
-
-lst = [-1, -1, -1, -1, -1, -1]
 
 count_letters, count_numbers, count_symbols = 0, 0, 0
 
